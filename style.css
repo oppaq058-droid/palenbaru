@@ -1,0 +1,132 @@
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #dcdcdc;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Container utama */
+        .container {
+            width: 720px;
+            margin: 10px auto;
+            background-color: white;
+            padding: 10px;
+        }
+
+        /* Header */
+        header h1 {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #111;
+        }
+
+        /* Navbar */
+        nav {
+            height: 29px;
+            background-color: #ff8c00;
+            display: flex;
+            align-items: stretch;
+            margin-bottom: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: bold;
+
+            background-color: #990000;
+
+            padding: 8px 14px;
+            display: flex;
+            align-items: center;
+
+            border-right: 1px solid white;
+        }
+
+        nav a:hover {
+            background-color: #770000;
+        }
+
+        /* Area kosong navbar */
+        nav .nav-space {
+            flex: 1;
+        }
+
+        /* Banner */
+        .banner {
+            width: 100%;
+            height: 393px;
+            object-fit: cover;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Layout 3 kolom */
+        .content {
+            display: flex;
+            gap: 15px;
+        }
+
+        /* Semua kolom */
+        .column {
+            font-size: 12px;
+            line-height: 1.05;
+            color: #111;
+        }
+
+        /* Judul kolom */
+        .column-title {
+            background-color: #a00000;
+            color: white;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: center;
+
+            padding: 7px 5px;
+            margin-bottom: 10px;
+        }
+
+        /* Profil Akun */
+        .left-box {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .left-box p {
+            margin-bottom: 10px;
+            text-align: justify;
+            padding: 0 8px;
+        }
+
+        /* Skill yang di kuasai */
+        .main-content {
+            background-color: #f5f5d8;
+            padding-bottom: 10px;
+        }
+
+        .main-content p {
+            margin-bottom: 20px;
+            text-align: justify;
+            padding: 0 10px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 18px;
+            height: 25px;
+            background-color: #ff8c00;
+
+            color: white;
+            font-size: 11px;
+            font-weight: bold;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
